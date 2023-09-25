@@ -1,6 +1,6 @@
-<a href="#inklap" class="btn btn-info" data-toggle="collapse">Toevoegen</a>
-<div id="inklap" class="collapse">
+	<a href="#inklap" class="btn btn-primary btn-lg	" data-toggle="collapse">Toevoegen</a><br><br>
+	<div id="inklap" class="collapse">
   
-  <!--Te bverbergen gedeelte -->
+  <!--Te verbergen gedeelte -->
   
 </div>
