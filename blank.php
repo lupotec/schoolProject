@@ -28,15 +28,15 @@
 			<form action="/index.php" method='POST'>
 				<div class="form-group">
 					<label for="usr">Artiest:</label>
-					<input type="text" class="form-control" id="usr">
+					<input type="text" class="form-control" id="usr" name='artist'>
 				</div>
 				<div class="form-group">
 					<label for="song">Song:</label>
-					<input type="text" class="form-control" id="song">
+					<input type="text" class="form-control" id="song" name ='song'>
 				</div>
 				<div class="form-group">
 					<label for="yt">YouTube:</label>
-					<input type="text" class="form-control" id="yt">
+					<input type="text" class="form-control" id="yt" name='yt'>
 				</div>				
 				
 				<button type="submit" class="btn btn-default">Voeg toe</button>
@@ -54,6 +54,7 @@
 				<div class="col-xs-2"><b>YouTube</b></div>
 			</div>
 			
+			<!--   SELECT LIJST   -->
 			
 			
 			
