@@ -25,7 +25,7 @@
 		</div>
 
 		<div class="panel-body">
-			<form action="/index.php" method='POST'>
+			<form action="./index.php" method='POST'>
 				<div class="form-group">
 					<label for="usr">Artiest:</label>
 					<input type="text" class="form-control" id="usr" name='artist'>
