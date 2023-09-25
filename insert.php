@@ -52,11 +52,17 @@ if($invoegen==1)
 	if ($con->query($sql) === TRUE) 
 	{
 		
-	  echo "goed ingevoerd";
+		echo "<div class='alert alert-success alert-dismissible'>";
+		echo"<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>";
+		echo"<strong>Success!</strong> ".$artist." met ".$song." goed ingevoerd!";
+		echo"</div>";
 	  
 	} else {
 		
-		echo "Fout";
+		echo "<div class='alert alert-warning alert-dismissible'>";
+		echo"<a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a>";
+		echo"<strong>Niet gelukt!</strong> ".$artist.": , ".$song;
+		echo"</div>";
 		//echo "Error: " . $sql . "<br>" . $con->error;
 		
 	}
