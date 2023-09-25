@@ -50,8 +50,9 @@
 	<div class="panel panel-primary"> 
 		<div class="panel-body">
 			<div class='row' STYLE='border:1px solid blue; background-color:#337ab7; color:white;'>
-				<div class="col-xs-5"><b>Artiest:</b></div>
-				<div class="col-xs-5"><b>Song:</b></div>
+				<div class="col-xs-2"></div>
+				<div class="col-xs-4"><b>Artiest:</b></div>
+				<div class="col-xs-4"><b>Song:</b></div>
 				<div class="col-xs-2"><b>YouTube</b></div>
 			</div>
 			
